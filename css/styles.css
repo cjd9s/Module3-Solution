@@ -1,0 +1,108 @@
+#header-nav{
+    background-color: rgb(222, 224, 105);
+    margin-bottom: 0px;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+.container .text-center {
+    margin-right: -200px;
+    margin-left: -200px;
+}
+#header-nav {
+    border-bottom: 2px black solid;
+}
+
+.navbar-brand h1 { /* Food LLC */
+    font-family: serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+  
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+}
+
+#nav-list a:hover, #nav-list a:focus  {
+    color: grey;
+}
+
+#nav-list li {
+    border-bottom: 2px black solid;
+    border-left:2px black solid;
+    border-right: 2px black solid;
+}
+
+#nav-list li:first-child {
+    border-top: 2px black solid;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+    background-color: rgb(119, 231, 235);
+}
+
+#collapsable-nav {
+    border-top: 0px;
+}
+
+#main-content {
+    height: 1500px;
+}
+
+#meat-description {
+    background-color: rgb(212, 243, 140);
+}
+/* 
+#meat-description {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+#meat-description p {
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+@media (min-width: 1200px){
+    .container {
+        width: 95%;
+}
+
+@media (max-width: 768px) {
+    
+    #meat-description {
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #meat-description p {
+
+        padding-left: 10%;
+        padding-right: 10%;
+        color: red;
+    }
+
+
+}
+
+}
